@@ -31,3 +31,18 @@ html {
   transform: translate(-50%, -50%);
 }
 
+.container{
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 960px;
+}
+
+.text-lg{   
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.center-img {
+    display: block;
+    margin: 60px auto;
+}
