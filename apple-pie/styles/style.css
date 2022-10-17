@@ -63,12 +63,28 @@ ul.ingredients-list {
 }
 
 ul.ingredients-list li {
+    line-height: 1.5;
     text-indent: -15px;
     position: relative;
-    padding: 5px 0;
 }
 
 ul.ingredients-list li::before {
     content: "-";
     position: absolute;
+}
+
+ol.directions-list{
+    list-style-type: none;
+    margin-left: 5px;
+    padding-left:0 ;
+}
+
+ol.directions-list li{
+    counter-increment: step-counter;
+    line-height: 1.5;
+}
+
+ol.directions-list li::before{
+    content: counter(step-counter) ") ";
+    margin-right: 5px;
 }
