@@ -19,7 +19,7 @@ html {
 }
 
 .hero-image{
-  background: url(../images/apple-pie.jpg) no-repeat center center/ cover;
+  background: rgba(0, 0, 0, .5) url(../images/apple-pie.jpg) no-repeat center center/ cover;
   height: 90vh;
   position: relative;
 }
