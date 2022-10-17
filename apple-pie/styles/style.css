@@ -6,6 +6,10 @@ body, html {
 h1, body, html, main {
     margin: 0;
 }
+h2 {
+    font-size: 1.2rem;
+   font-weight: 400; 
+}
 /*Import the font and set the default size*/
 html {
     color: #333;
@@ -37,12 +41,34 @@ html {
     width: 960px;
 }
 
+hr{
+    margin: 60px auto;
+}
+
+
 .text-lg{   
     font-size: 1.3rem;
     line-height: 1.5;
+    margin-bottom: 60px;
 }
 
 .center-img {
     display: block;
-    margin: 60px auto;
+    margin: 0 auto;
+}
+
+ul.ingredients-list {    
+    list-style-type: none;
+    margin-bottom: 60px;
+}
+
+ul.ingredients-list li {
+    text-indent: -15px;
+    position: relative;
+    padding: 5px 0;
+}
+
+ul.ingredients-list li::before {
+    content: "-";
+    position: absolute;
 }
